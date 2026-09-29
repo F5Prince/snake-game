@@ -205,7 +205,7 @@ const SnakeGame = () => {
       setScore(prev => prev + 1);
       letterIndexRef.current++;
       if (letterIndexRef.current >= name.length) {
-        setMessage("🎉 Congratulations SONAM! 🎉");
+        setMessage("🎉 Congratulations PRASHANT! 🎉");
         playSound(winSound);
         clearInterval(intervalId);
         gameRunningRef.current = false;
