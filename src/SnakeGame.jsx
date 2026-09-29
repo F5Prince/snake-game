@@ -15,7 +15,7 @@ const SnakeGame = () => {
   const blinkStateRef = useRef(true);
   const tongueStateRef = useRef(false);
   const box = 20;
-  const name = "SONAM";
+  const name = "PRASHANT";
   const snakeRef = useRef([]);
   const directionRef = useRef("RIGHT");
   const letterIndexRef = useRef(0);
